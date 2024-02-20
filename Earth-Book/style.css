@@ -1,0 +1,14 @@
+
+body{
+    background-color: hsl(77, 75%, 11%);
+    color:rgb(236, 246, 198);
+    font-size: 18px;
+}
+a:any-link {
+    color: rgb(236, 246, 198);
+  }
+.closer{
+    position:relative;
+    top:500px;
+    left:50%;
+}
