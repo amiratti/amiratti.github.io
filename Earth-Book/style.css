@@ -1,14 +1,27 @@
 
 body{
-    background-color: hsl(77, 75%, 11%);
-    color:rgb(236, 246, 198);
+    background-image: url("C:\Users\alya\Downloads\Motion Kimchi Board2 (1).gif");
+    */*background-color: rgb(229, 240, 235);*/
+    color:rgb(67, 79, 21);
     font-size: 18px;
 }
 a:any-link {
-    color: rgb(236, 246, 198);
+    color: rgb(67, 79, 21);
   }
 .closer{
     position:relative;
     top:500px;
     left:50%;
+}
+.boxy{
+    border: dashed 3px;
+    background-color: aliceblue;
+    opacity: 50%;
+
+    width: 55%;
+    height: 50%;
+    position: fixed;
+    top: 180px;
+    left: 300px;
+
 }
