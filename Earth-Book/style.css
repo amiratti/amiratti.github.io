@@ -32,6 +32,11 @@ a:any-link {
     bottom:85px;
     left:300px;
 }
+.home{
+    position:absolute;
+    bottom:85px;
+    left:700px;
+}
 .boxy{
     border: dashed 3px;
     padding: 50px;
