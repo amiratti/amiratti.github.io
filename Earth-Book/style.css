@@ -45,7 +45,7 @@ a:any-link {
     position: fixed;
     top: 180px;
     left: 300px;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     scrollbar-color:  rgb(204, 204, 156)rgb(243, 234, 202);
 
