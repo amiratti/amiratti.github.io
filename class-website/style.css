@@ -1,4 +1,7 @@
 body{
-    background-color: rgb(165, 209, 153);
-    color:rgb(94, 47, 14);
+    background-color: rgb(49, 76, 32);
+    color:rgb(250, 228, 164);
+}
+.title{
+    font-size: 80px;
 }
