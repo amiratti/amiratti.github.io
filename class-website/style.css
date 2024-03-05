@@ -50,10 +50,10 @@
         min-width: 400px;
     }
     .title{
-        font-size: 70px;
+        font-size: 80px;
     }
     .heading, .music{
-        font-size:50px;
+        font-size:60px;
     }
     .box1{
         display:flex;
