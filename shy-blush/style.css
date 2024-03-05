@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+#shy{
+    display:flex;
+    flex-direction:row;
+    position:absolute;
+    right:5px;
+    bottom:5px;
+    
+  }
+.letter {
+
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 20px;
+    }
+.pixel {
+    width: 20px;
+    height: 20px;
+  }
+  .s {
+    width:80px;
+  }
+  .h {
+    width:80px;
+  }
+  .y {
+    width: 60px;
+  }
+.blush {
+    background-color: white;
+    border-radius:15px;
+    filter: blur(1px);
+    transition: border-radius 0.5s linear;
+    transition: background-color 0.5s linear;
+    transition:filter:blur 0.5s linear;
+    
+  }
+  
+  .blush:hover {
+    border-radius: 20px;
+    background-color:hotpink;
+    filter: blur(4px);
+    
+    
+  }
