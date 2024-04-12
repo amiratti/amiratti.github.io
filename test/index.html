@@ -5,197 +5,316 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
 <div id = "instructions">
-    click on a square to fill it in with the second yarn color!
+    click on the squares to design your pattern
 </div>
+    <input type ="color" id = "color-picker" oninput = "changeColor()">
+
 <div id = "sweater">
 
+
+
  <div class="block">  
-    <p hidden>ROW 1</p>  
-    <input type="button" class = "stitch _1a" onclick="changeColor()">
-    <input type="button" class = "stitch _1b" onclick="changeColor()">
-    <input type="button" class = "stitch _1c" onclick="changeColor()">
-    <input type="button" class = "stitch _1d" onclick="changeColor()">
-    <input type="button" class = "stitch _1e" onclick="changeColor()">
+    <p hidden>block 1 ROW 1</p>  
+    <input type="button" class = "stitch _1a" onclick="fill1aSquare()">
+    <input type="button" class = "stitch _1b">
+    <input type="button" class = "stitch _1c">
+    <input type="button" class = "stitch _1d">
+    <input type="button" class = "stitch _1e">
 
     <p hidden>ROW 2</p>  
-    <input type="button" class = "stitch _2a" onclick="changeColor()">
-    <input type="button" class = "stitch _2b" onclick="changeColor()">
-    <input type="button" class = "stitch _2c" onclick="changeColor()">
-    <input type="button" class = "stitch _2d" onclick="changeColor()">
-    <input type="button" class = "stitch _2e" onclick="changeColor()">
+    <input type="button" class = "stitch _2a">
+    <input type="button" class = "stitch _2b">
+    <input type="button" class = "stitch _2c">
+    <input type="button" class = "stitch _2d">
+    <input type="button" class = "stitch _2e">
 
-    <p hidden>ROW 3</p>  
-    <input type="button" class = "stitch _3a" onclick="changeColor()">
-    <input type="button" class = "stitch _3b" onclick="changeColor()">
-    <input type="button" class = "stitch _3c" onclick="changeColor()">
-    <input type="button" class = "stitch _3d" onclick="changeColor()">
-    <input type="button" class = "stitch _3e" onclick="changeColor()">
+    <p hidden>ROW 3</p> 
+    <input type="button" class = "stitch _3a">
+    <input type="button" class = "stitch _3b">
+    <input type="button" class = "stitch _3c">
+    <input type="button" class = "stitch _3d">
+    <input type="button" class = "stitch _3e">
 
     <p hidden>ROW 4</p>  
-    <input type="button" class = "stitch _4a" onclick="changeColor()">
-    <input type="button" class = "stitch _4b" onclick="changeColor()">
-    <input type="button" class = "stitch _4c" onclick="changeColor()">
-    <input type="button" class = "stitch _4d" onclick="changeColor()">
-    <input type="button" class = "stitch _4e" onclick="changeColor()">
+    <input type="button" class = "stitch _4a">
+    <input type="button" class = "stitch _4b">
+    <input type="button" class = "stitch _4c">
+    <input type="button" class = "stitch _4d">
+    <input type="button" class = "stitch _4e">
 
     <p hidden>ROW 5</p>  
-    <input type="button" class = "stitch _5a" onclick="changeColor()">
-    <input type="button" class = "stitch _5b" onclick="changeColor()">
-    <input type="button" class = "stitch _5c" onclick="changeColor()">
-    <input type="button" class = "stitch _5d" onclick="changeColor()">
-    <input type="button" class = "stitch _5e" onclick="changeColor()">
+    <input type="button" class = "stitch _5a">
+    <input type="button" class = "stitch _5b">
+    <input type="button" class = "stitch _5c">
+    <input type="button" class = "stitch _5d">
+    <input type="button" class = "stitch _5e">
+ </div>
+
+ 
+ <div class="block">  
+    <p hidden>block 2 ROW 1</p>  
+    <input type="button" class = "stitch _1a" onclick="fill1aSquare()">
+    <input type="button" class = "stitch _1b">
+    <input type="button" class = "stitch _1c">
+    <input type="button" class = "stitch _1d">
+    <input type="button" class = "stitch _1e">
+
+    <p hidden>ROW 2</p>  
+    <input type="button" class = "stitch _2a">
+    <input type="button" class = "stitch _2b">
+    <input type="button" class = "stitch _2c">
+    <input type="button" class = "stitch _2d">
+    <input type="button" class = "stitch _2e">
+
+    <p hidden>ROW 3</p> 
+    <input type="button" class = "stitch _3a">
+    <input type="button" class = "stitch _3b">
+    <input type="button" class = "stitch _3c">
+    <input type="button" class = "stitch _3d">
+    <input type="button" class = "stitch _3e">
+
+    <p hidden>ROW 4</p>  
+    <input type="button" class = "stitch _4a">
+    <input type="button" class = "stitch _4b">
+    <input type="button" class = "stitch _4c">
+    <input type="button" class = "stitch _4d">
+    <input type="button" class = "stitch _4e">
+
+    <p hidden>ROW 5</p>  
+    <input type="button" class = "stitch _5a">
+    <input type="button" class = "stitch _5b">
+    <input type="button" class = "stitch _5c">
+    <input type="button" class = "stitch _5d">
+    <input type="button" class = "stitch _5e">
+ </div>
+ 
+ <div class="block">  
+    <p hidden>block 3 ROW 1</p>  
+    <input type="button" class = "stitch _1a" onclick="fill1aSquare()">
+    <input type="button" class = "stitch _1b">
+    <input type="button" class = "stitch _1c">
+    <input type="button" class = "stitch _1d">
+    <input type="button" class = "stitch _1e">
+
+    <p hidden>ROW 2</p>  
+    <input type="button" class = "stitch _2a">
+    <input type="button" class = "stitch _2b">
+    <input type="button" class = "stitch _2c">
+    <input type="button" class = "stitch _2d">
+    <input type="button" class = "stitch _2e">
+
+    <p hidden>ROW 3</p> 
+    <input type="button" class = "stitch _3a">
+    <input type="button" class = "stitch _3b">
+    <input type="button" class = "stitch _3c">
+    <input type="button" class = "stitch _3d">
+    <input type="button" class = "stitch _3e">
+
+    <p hidden>ROW 4</p>  
+    <input type="button" class = "stitch _4a">
+    <input type="button" class = "stitch _4b">
+    <input type="button" class = "stitch _4c">
+    <input type="button" class = "stitch _4d">
+    <input type="button" class = "stitch _4e">
+
+    <p hidden>ROW 5</p>  
+    <input type="button" class = "stitch _5a">
+    <input type="button" class = "stitch _5b">
+    <input type="button" class = "stitch _5c">
+    <input type="button" class = "stitch _5d">
+    <input type="button" class = "stitch _5e">
+ </div>
+
+ <div class="block">  
+    <p hidden>block 4 ROW 1</p>  
+    <input type="button" class = "stitch _1a" onclick="fill1aSquare()">
+    <input type="button" class = "stitch _1b">
+    <input type="button" class = "stitch _1c">
+    <input type="button" class = "stitch _1d">
+    <input type="button" class = "stitch _1e">
+
+    <p hidden>ROW 2</p>  
+    <input type="button" class = "stitch _2a">
+    <input type="button" class = "stitch _2b">
+    <input type="button" class = "stitch _2c">
+    <input type="button" class = "stitch _2d">
+    <input type="button" class = "stitch _2e">
+
+    <p hidden>ROW 3</p> 
+    <input type="button" class = "stitch _3a">
+    <input type="button" class = "stitch _3b">
+    <input type="button" class = "stitch _3c">
+    <input type="button" class = "stitch _3d">
+    <input type="button" class = "stitch _3e">
+
+    <p hidden>ROW 4</p>  
+    <input type="button" class = "stitch _4a">
+    <input type="button" class = "stitch _4b">
+    <input type="button" class = "stitch _4c">
+    <input type="button" class = "stitch _4d">
+    <input type="button" class = "stitch _4e">
+
+    <p hidden>ROW 5</p>  
+    <input type="button" class = "stitch _5a">
+    <input type="button" class = "stitch _5b">
+    <input type="button" class = "stitch _5c">
+    <input type="button" class = "stitch _5d">
+    <input type="button" class = "stitch _5e">
+ </div>
+
+ <!-- <div class="block">  
+    <p hidden>ROW 1</p>  
+    <input type="button" class = "stitch _1a" onclick="fillSquare()">
+    <input type="button" class = "stitch _1b" onclick="fillSquare()">
+    <input type="button" class = "stitch _1c" onclick="fillSquare()">
+    <input type="button" class = "stitch _1d" onclick="fillSquare()">
+    <input type="button" class = "stitch _1e" onclick="fillSquare()">
+
+    <p hidden>ROW 2</p>  
+    <input type="button" class = "stitch _2a" onclick="fillSquare()">
+    <input type="button" class = "stitch _2b" onclick="fillSquare()">
+    <input type="button" class = "stitch _2c" onclick="fillSquare()">
+    <input type="button" class = "stitch _2d" onclick="fillSquare()">
+    <input type="button" class = "stitch _2e" onclick="fillSquare()">
+
+    <p hidden>ROW 3</p> 
+    <input type="button" class = "stitch _3a" onclick="fillSquare()">
+    <input type="button" class = "stitch _3b" onclick="fillSquare()">
+    <input type="button" class = "stitch _3c" onclick="fillSquare()">
+    <input type="button" class = "stitch _3d" onclick="fillSquare()">
+    <input type="button" class = "stitch _3e" onclick="fillSquare()">
+
+    <p hidden>ROW 4</p>  
+    <input type="button" class = "stitch _4a" onclick="fillSquare()">
+    <input type="button" class = "stitch _4b" onclick="fillSquare()">
+    <input type="button" class = "stitch _4c" onclick="fillSquare()">
+    <input type="button" class = "stitch _4d" onclick="fillSquare()">
+    <input type="button" class = "stitch _4e" onclick="fillSquare()">
+
+    <p hidden>ROW 5</p>  
+    <input type="button" class = "stitch _5a" onclick="fillSquare()">
+    <input type="button" class = "stitch _5b" onclick="fillSquare()">
+    <input type="button" class = "stitch _5c" onclick="fillSquare()">
+    <input type="button" class = "stitch _5d" onclick="fillSquare()">
+    <input type="button" class = "stitch _5e" onclick="fillSquare()">
  </div>
 
  <div class="block">  
     <p hidden>ROW 1</p>  
-    <input type="button" class = "stitch _1a" onclick="changeColor()">
-    <input type="button" class = "stitch _1b" onclick="changeColor()">
-    <input type="button" class = "stitch _1c" onclick="changeColor()">
-    <input type="button" class = "stitch _1d" onclick="changeColor()">
-    <input type="button" class = "stitch _1e" onclick="changeColor()">
+    <input type="button" class = "stitch _1a" onclick="fillSquare()">
+    <input type="button" class = "stitch _1b" onclick="fillSquare()">
+    <input type="button" class = "stitch _1c" onclick="fillSquare()">
+    <input type="button" class = "stitch _1d" onclick="fillSquare()">
+    <input type="button" class = "stitch _1e" onclick="fillSquare()">
 
     <p hidden>ROW 2</p>  
-    <input type="button" class = "stitch _2a" onclick="changeColor()">
-    <input type="button" class = "stitch _2b" onclick="changeColor()">
-    <input type="button" class = "stitch _2c" onclick="changeColor()">
-    <input type="button" class = "stitch _2d" onclick="changeColor()">
-    <input type="button" class = "stitch _2e" onclick="changeColor()">
+    <input type="button" class = "stitch _2a" onclick="fillSquare()">
+    <input type="button" class = "stitch _2b" onclick="fillSquare()">
+    <input type="button" class = "stitch _2c" onclick="fillSquare()">
+    <input type="button" class = "stitch _2d" onclick="fillSquare()">
+    <input type="button" class = "stitch _2e" onclick="fillSquare()">
 
     <p hidden>ROW 3</p>  
-    <input type="button" class = "stitch _3a" onclick="changeColor()">
-    <input type="button" class = "stitch _3b" onclick="changeColor()">
-    <input type="button" class = "stitch _3c" onclick="changeColor()">
-    <input type="button" class = "stitch _3d" onclick="changeColor()">
-    <input type="button" class = "stitch _3e" onclick="changeColor()">
+    <input type="button" class = "stitch _3a" onclick="fillSquare()">
+    <input type="button" class = "stitch _3b" onclick="fillSquare()">
+    <input type="button" class = "stitch _3c" onclick="fillSquare()">
+    <input type="button" class = "stitch _3d" onclick="fillSquare()">
+    <input type="button" class = "stitch _3e" onclick="fillSquare()">
 
     <p hidden>ROW 4</p>  
-    <input type="button" class = "stitch _4a" onclick="changeColor()">
-    <input type="button" class = "stitch _4b" onclick="changeColor()">
-    <input type="button" class = "stitch _4c" onclick="changeColor()">
-    <input type="button" class = "stitch _4d" onclick="changeColor()">
-    <input type="button" class = "stitch _4e" onclick="changeColor()">
+    <input type="button" class = "stitch _4a" onclick="fillSquare()">
+    <input type="button" class = "stitch _4b" onclick="fillSquare()">
+    <input type="button" class = "stitch _4c" onclick="fillSquare()">
+    <input type="button" class = "stitch _4d" onclick="fillSquare()">
+    <input type="button" class = "stitch _4e" onclick="fillSquare()">
 
     <p hidden>ROW 5</p>  
-    <input type="button" class = "stitch _5a" onclick="changeColor()">
-    <input type="button" class = "stitch _5b" onclick="changeColor()">
-    <input type="button" class = "stitch _5c" onclick="changeColor()">
-    <input type="button" class = "stitch _5d" onclick="changeColor()">
-    <input type="button" class = "stitch _5e" onclick="changeColor()">
+    <input type="button" class = "stitch _5a" onclick="fillSquare()">
+    <input type="button" class = "stitch _5b" onclick="fillSquare()">
+    <input type="button" class = "stitch _5c" onclick="fillSquare()">
+    <input type="button" class = "stitch _5d" onclick="fillSquare()">
+    <input type="button" class = "stitch _5e" onclick="fillSquare()">
  </div>
 
  <div class="block">  
     <p hidden>ROW 1</p>  
-    <input type="button" class = "stitch _1a" onclick="changeColor()">
-    <input type="button" class = "stitch _1b" onclick="changeColor()">
-    <input type="button" class = "stitch _1c" onclick="changeColor()">
-    <input type="button" class = "stitch _1d" onclick="changeColor()">
-    <input type="button" class = "stitch _1e" onclick="changeColor()">
+    <input type="button" class = "stitch _1a" onclick="fillSquare()">
+    <input type="button" class = "stitch _1b" onclick="fillSquare()">
+    <input type="button" class = "stitch _1c" onclick="fillSquare()">
+    <input type="button" class = "stitch _1d" onclick="fillSquare()">
+    <input type="button" class = "stitch _1e" onclick="fillSquare()">
 
-    <p hidden>ROW 2</p>  
-    <input type="button" class = "stitch _2a" onclick="changeColor()">
-    <input type="button" class = "stitch _2b" onclick="changeColor()">
-    <input type="button" class = "stitch _2c" onclick="changeColor()">
-    <input type="button" class = "stitch _2d" onclick="changeColor()">
-    <input type="button" class = "stitch _2e" onclick="changeColor()">
-
-    <p hidden>ROW 3</p>  
-    <input type="button" class = "stitch _3a" onclick="changeColor()">
-    <input type="button" class = "stitch _3b" onclick="changeColor()">
-    <input type="button" class = "stitch _3c" onclick="changeColor()">
-    <input type="button" class = "stitch _3d" onclick="changeColor()">
-    <input type="button" class = "stitch _3e" onclick="changeColor()">
-
-    <p hidden>ROW 4</p>  
-    <input type="button" class = "stitch _4a" onclick="changeColor()">
-    <input type="button" class = "stitch _4b" onclick="changeColor()">
-    <input type="button" class = "stitch _4c" onclick="changeColor()">
-    <input type="button" class = "stitch _4d" onclick="changeColor()">
-    <input type="button" class = "stitch _4e" onclick="changeColor()">
-
-    <p hidden>ROW 5</p>  
-    <input type="button" class = "stitch _5a" onclick="changeColor()">
-    <input type="button" class = "stitch _5b" onclick="changeColor()">
-    <input type="button" class = "stitch _5c" onclick="changeColor()">
-    <input type="button" class = "stitch _5d" onclick="changeColor()">
-    <input type="button" class = "stitch _5e" onclick="changeColor()">
- </div>
-
- <div class="block">  
-    <p hidden>ROW 1</p>  
-    <input type="button" class = "stitch _1a" onclick="changeColor()">
-    <input type="button" class = "stitch _1b" onclick="changeColor()">
-    <input type="button" class = "stitch _1c" onclick="changeColor()">
-    <input type="button" class = "stitch _1d" onclick="changeColor()">
-    <input type="button" class = "stitch _1e" onclick="changeColor()">
-
-    <p hidden>ROW 2</p>  
-    <input type="button" class = "stitch _2a" onclick="changeColor()">
-    <input type="button" class = "stitch _2b" onclick="changeColor()">
-    <input type="button" class = "stitch _2c" onclick="changeColor()">
-    <input type="button" class = "stitch _2d" onclick="changeColor()">
-    <input type="button" class = "stitch _2e" onclick="changeColor()">
+    <p hidden>ROW 2</p> 
+    <input type="button" class = "stitch _2a" onclick="fillSquare()">
+    <input type="button" class = "stitch _2b" onclick="fillSquare()">
+    <input type="button" class = "stitch _2c" onclick="fillSquare()">
+    <input type="button" class = "stitch _2d" onclick="fillSquare()">
+    <input type="button" class = "stitch _2e" onclick="fillSquare()">
 
     <p hidden>ROW 3</p>  
-    <input type="button" class = "stitch _3a" onclick="changeColor()">
-    <input type="button" class = "stitch _3b" onclick="changeColor()">
-    <input type="button" class = "stitch _3c" onclick="changeColor()">
-    <input type="button" class = "stitch _3d" onclick="changeColor()">
-    <input type="button" class = "stitch _3e" onclick="changeColor()">
+    <input type="button" class = "stitch _3a" onclick="fillSquare()">
+    <input type="button" class = "stitch _3b" onclick="fillSquare()">
+    <input type="button" class = "stitch _3c" onclick="fillSquare()">
+    <input type="button" class = "stitch _3d" onclick="fillSquare()">
+    <input type="button" class = "stitch _3e" onclick="fillSquare()">
 
-    <p hidden>ROW 4</p>  
-    <input type="button" class = "stitch _4a" onclick="changeColor()">
-    <input type="button" class = "stitch _4b" onclick="changeColor()">
-    <input type="button" class = "stitch _4c" onclick="changeColor()">
-    <input type="button" class = "stitch _4d" onclick="changeColor()">
-    <input type="button" class = "stitch _4e" onclick="changeColor()">
+    <p hidden>ROW 4</p> 
+    <input type="button" class = "stitch _4a" onclick="fillSquare()">
+    <input type="button" class = "stitch _4b" onclick="fillSquare()">
+    <input type="button" class = "stitch _4c" onclick="fillSquare()">
+    <input type="button" class = "stitch _4d" onclick="fillSquare()">
+    <input type="button" class = "stitch _4e" onclick="fillSquare()">
 
-    <p hidden>ROW 5</p>  
-    <input type="button" class = "stitch _5a" onclick="changeColor()">
-    <input type="button" class = "stitch _5b" onclick="changeColor()">
-    <input type="button" class = "stitch _5c" onclick="changeColor()">
-    <input type="button" class = "stitch _5d" onclick="changeColor()">
-    <input type="button" class = "stitch _5e" onclick="changeColor()">
+    <p hidden>ROW 5</p> 
+    <input type="button" class = "stitch _5a" onclick="fillSquare()">
+    <input type="button" class = "stitch _5b" onclick="fillSquare()">
+    <input type="button" class = "stitch _5c" onclick="fillSquare()">
+    <input type="button" class = "stitch _5d" onclick="fillSquare()">
+    <input type="button" class = "stitch _5e" onclick="fillSquare()">
  </div>
 
- <div class="block">  
-    <p hidden>ROW 1</p>  
-    <input type="button" class = "stitch _1a" onclick="changeColor()">
-    <input type="button" class = "stitch _1b" onclick="changeColor()">
-    <input type="button" class = "stitch _1c" onclick="changeColor()">
-    <input type="button" class = "stitch _1d" onclick="changeColor()">
-    <input type="button" class = "stitch _1e" onclick="changeColor()">
+ <div class="block"> 
+    <p hidden>ROW 1</p> 
+    <input type="button" class = "stitch _1a" onclick="fillSquare()">
+    <input type="button" class = "stitch _1b" onclick="fillSquare()">
+    <input type="button" class = "stitch _1c" onclick="fillSquare()">
+    <input type="button" class = "stitch _1d" onclick="fillSquare()">
+    <input type="button" class = "stitch _1e" onclick="fillSquare()">
 
-    <p hidden>ROW 2</p>  
-    <input type="button" class = "stitch _2a" onclick="changeColor()">
-    <input type="button" class = "stitch _2b" onclick="changeColor()">
-    <input type="button" class = "stitch _2c" onclick="changeColor()">
-    <input type="button" class = "stitch _2d" onclick="changeColor()">
-    <input type="button" class = "stitch _2e" onclick="changeColor()">
+    <p hidden>ROW 2</p> 
+    <input type="button" class = "stitch _2a" onclick="fillSquare()">
+    <input type="button" class = "stitch _2b" onclick="fillSquare()">
+    <input type="button" class = "stitch _2c" onclick="fillSquare()">
+    <input type="button" class = "stitch _2d" onclick="fillSquare()">
+    <input type="button" class = "stitch _2e" onclick="fillSquare()">
 
     <p hidden>ROW 3</p>  
-    <input type="button" class = "stitch _3a" onclick="changeColor()">
-    <input type="button" class = "stitch _3b" onclick="changeColor()">
-    <input type="button" class = "stitch _3c" onclick="changeColor()">
-    <input type="button" class = "stitch _3d" onclick="changeColor()">
-    <input type="button" class = "stitch _3e" onclick="changeColor()">
+    <input type="button" class = "stitch _3a" onclick="fillSquare()">
+    <input type="button" class = "stitch _3b" onclick="fillSquare()">
+    <input type="button" class = "stitch _3c" onclick="fillSquare()">
+    <input type="button" class = "stitch _3d" onclick="fillSquare()">
+    <input type="button" class = "stitch _3e" onclick="fillSquare()">
 
     <p hidden>ROW 4</p>  
-    <input type="button" class = "stitch _4a" onclick="changeColor()">
-    <input type="button" class = "stitch _4b" onclick="changeColor()">
-    <input type="button" class = "stitch _4c" onclick="changeColor()">
-    <input type="button" class = "stitch _4d" onclick="changeColor()">
-    <input type="button" class = "stitch _4e" onclick="changeColor()">
+    <input type="button" class = "stitch _4a" onclick="fillSquare()">
+    <input type="button" class = "stitch _4b" onclick="fillSquare()">
+    <input type="button" class = "stitch _4c" onclick="fillSquare()">
+    <input type="button" class = "stitch _4d" onclick="fillSquare()">
+    <input type="button" class = "stitch _4e" onclick="fillSquare()">
 
-    <p hidden>ROW 5</p>  
-    <input type="button" class = "stitch _5a" onclick="changeColor()">
-    <input type="button" class = "stitch _5b" onclick="changeColor()">
-    <input type="button" class = "stitch _5c" onclick="changeColor()">
-    <input type="button" class = "stitch _5d" onclick="changeColor()">
-    <input type="button" class = "stitch _5e" onclick="changeColor()">
- </div>
+    <p hidden>ROW 5</p> 
+    <input type="button" class = "stitch _5a" onclick="fillSquare()">
+    <input type="button" class = "stitch _5b" onclick="fillSquare()">
+    <input type="button" class = "stitch _5c" onclick="fillSquare()">
+    <input type="button" class = "stitch _5d" onclick="fillSquare()">
+    <input type="button" class = "stitch _5e" onclick="fillSquare()">
+ </div> -->
+
+<script src="script.js"></script>
 
 </body>
 </html>

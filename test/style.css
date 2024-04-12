@@ -5,19 +5,25 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
+#instructions{
+    position:absolute;
+    top: 2rem;
+    left: 2rem;
 
+}
 #sweater{
     display:flex;
     position:absolute;
-    right:50px;
-    bottom:50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
 .block{
     display: flex;
     flex-wrap: wrap;
-    width:160px;
-    margin: 1px;
+    width:150px;
+    margin: .2px;
 }
 .stitch{
     width: 30px;
@@ -32,3 +38,9 @@ body{
     border: solid 1px deeppink;
 }
 
+#color-picker{
+    width:70px;
+    height:60px;
+    position:absolute;
+    top: 2rem;
+    right: 2rem;
