@@ -1,0 +1,75 @@
+.canvas{
+    display: flex;
+    flex-wrap: wrap;
+    width:270px;
+    margin: .2px;
+    position:absolute;
+    left:1rem;
+    top:1rem;
+}
+
+.canvas-stitch{
+    width: 50px;
+    height: 50px;
+    background-color:  #C3CE92;
+    border-color:  #C3CE92;
+    margin:1px;
+
+}
+
+body{
+    background-color: beige;
+    color:beige;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.stitch{
+    width: 15px;
+    height: 15px;
+    background-color:beige;
+    border: solid .2px beige;
+}
+
+.hot-dog{
+    display: flex;
+    flex-wrap: wrap;
+    width:1000px;
+    margin: .2px;
+    position:absolute;
+    right:1rem;
+    bottom:0px;
+
+
+}
+
+.dog{
+    background-color: #BC7984;
+    border: solid .2px #BC7984;
+    
+}
+
+.face{
+    background-color: #7D3847;
+    border: solid .2px #7D3847;
+}
+
+.hem{
+    background-color: #808C3A;
+    border: solid .2px #808C3A;
+}
+
+.torso, .sweater{
+    background-color: #C3CE92;
+    border: solid .2px  #C3CE92;
+}
+
+#base-colorpicker, #add-colorpicker{
+    width:70px;
+    height:70px;
+}
+
+.fill{
+    background-color: #808C3A;
+    border: solid .2px #808C3A;
+}
