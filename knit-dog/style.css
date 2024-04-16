@@ -106,12 +106,12 @@ a, a:visited {
 @media only screen and (max-width: 600px) {
     body {
     
-      font-size: 30px;;
+      font-size: 15px;
     }
     .canvas{
         display: flex;
         flex-wrap: wrap;
-        width:310px;
+        width:160px;
         margin: .2px;
         padding:25px;
         top: 25%;
@@ -120,8 +120,8 @@ a, a:visited {
     }
     
     .canvas-stitch{
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         background-color:  #C3CE92;
         border-color:  #C3CE92;
         margin:1px;
@@ -132,8 +132,8 @@ a, a:visited {
         border: solid .2px #808C3A;
     }
     .stitch{
-        width: 3px;
-        height: 3px;
+        width: 5px;
+        height: 5px;
         background-color:beige;
         border: solid .2px beige;
     }
@@ -141,7 +141,7 @@ a, a:visited {
     .hot-dog{
         display: flex;
         flex-wrap: wrap;
-        width:120px;
+        width:350px;
       
         position:absolute;
         right:1rem;
