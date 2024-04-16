@@ -90,10 +90,12 @@ body{
 }
 
 
-
-a:visited { 
+a, a:visited { 
     text-decoration: none; 
     color: #808C3A;
+    border: dashed 6px #C3CE92;
+    padding:15px;
+
 }
 
 .V2{
