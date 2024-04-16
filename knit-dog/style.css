@@ -103,3 +103,71 @@ a, a:visited {
     bottom:1rem;
     left:1rem;
 }
+@media only screen and (max-width: 600px) {
+    body {
+    
+      font-size: 30px;;
+    }
+    .canvas{
+        display: flex;
+        flex-wrap: wrap;
+        width:310px;
+        margin: .2px;
+        padding:25px;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .canvas-stitch{
+        width: 60px;
+        height: 60px;
+        background-color:  #C3CE92;
+        border-color:  #C3CE92;
+        margin:1px;
+    
+    }
+    .fill{
+        background-color: #808C3A;
+        border: solid .2px #808C3A;
+    }
+    .stitch{
+        width: 3px;
+        height: 3px;
+        background-color:beige;
+        border: solid .2px beige;
+    }
+    
+    .hot-dog{
+        display: flex;
+        flex-wrap: wrap;
+        width:120px;
+      
+        position:absolute;
+        right:1rem;
+        bottom:0px;
+    
+    }
+    
+.dog{
+    background-color: #BC7984;
+    border: solid .2px #BC7984;
+    
+}
+
+.face{
+    background-color: #7D3847;
+    border: solid .2px #7D3847;
+}
+
+.hem{
+    background-color: #808C3A;
+    border: solid .2px #808C3A;
+}
+
+.torso, .sweater{
+    background-color: #C3CE92;
+    border: solid .2px  #C3CE92;
+}
+
+  }
