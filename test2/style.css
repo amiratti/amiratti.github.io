@@ -6,6 +6,8 @@
     position:absolute;
     left:1rem;
     top:1rem;
+    border: dashed 6px #C3CE92;
+    padding:25px;
 }
 
 .canvas-stitch{
@@ -19,9 +21,12 @@
 
 body{
     background-color: beige;
-    color:beige;
-    font-size: 30px;
+    color:#808C3A;
+    font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.instructions{
+    padding:15px;
 }
 
 .stitch{
@@ -65,11 +70,34 @@ body{
 }
 
 #base-colorpicker, #add-colorpicker{
-    width:70px;
-    height:70px;
+    width:90px;
+    height:90px;
+    margin:5px;
+    background-color: beige;
+    border:beige;
+
+
 }
 
+.colorpickers{
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+}
 .fill{
     background-color: #808C3A;
     border: solid .2px #808C3A;
+}
+
+
+
+a:visited { 
+    text-decoration: none; 
+    color: #808C3A;
+}
+
+.V2{
+    position:absolute;
+    bottom:1rem;
+    left:1rem;
 }

@@ -1,6 +1,4 @@
 
-let myStitch = document.getElementsByClassName("canvas-stitch");
-console.log(myStitch);
 
 function fill1aSquare() {
  
@@ -214,3 +212,25 @@ function fill3cSquare() {
      _5eStitch.classList.toggle("fill");
     }
   }
+
+
+  let baseColor = document.getElementById("base-colorpicker");
+  let addColor = document.getElementById("add-colorpicker");
+  
+  
+  function changeAddColor(){
+    let sweaterAdds = document.getElementsByClassName("fill");
+    for (let sweaterAdd of sweaterAdds){
+  sweaterAdd.style.backgroundColor = addColor.value;
+  sweaterAdd.style.borderColor = addColor.value;
+    }
+  }
+  
+  function changeBaseColor(){
+    let sweaterBases = document.getElementsByClassName("sweater");
+    for (let sweaterBase of sweaterBases){
+  sweaterBase.style.backgroundColor = baseColor.value;
+  sweaterBase.style.borderColor = baseColor.value;
+    }
+  }
+  
