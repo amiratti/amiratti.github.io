@@ -21,3 +21,10 @@
     transition:3s;
 
 }
+
+@media only screen and (max-width: 768px) {
+    #moss-text{
+        font-size: 7vw;
+        width:90vw;;
+    }
+}
