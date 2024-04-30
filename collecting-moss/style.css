@@ -5,7 +5,6 @@
     text-align:justify;
     display: flex;
     position: absolute;
-    /*text-shadow: 0 0 15px forestgreen;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -13,13 +12,17 @@
   }
 
 .moss-ball{
-    width:5vw;
-    height:5vw;
+    width:70px;
+    height:70px;
     background-color: forestgreen;
-    border-radius: 50px;
+    border-radius: 60px;
     filter:blur(10px);
     transition:3s;
 
+}
+.canvas{
+    width:100vw;
+    height:100wh;
 }
 
 @media only screen and (max-width: 768px) {
