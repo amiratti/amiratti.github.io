@@ -18,16 +18,17 @@
     width:90px;
     height:90px;
     background-color: forestgreen;
-    border-radius: 60px;
-    /* filter:blur(12px);  */
-    transition:3s;
+    border-radius: 90px;
+    filter: blur(20px);
+    opacity:0;
+
     
 }
 
-/* .moss-ball:hover{
-    display:none;
-    transition: 3s;
-  } */
+.moss-ball-vanish{
+
+}
+
 
 
 @media only screen and (max-width: 768px) {
