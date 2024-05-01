@@ -3,18 +3,22 @@ function blurMossText(){
     mossText.style.textShadow = "0 0 " + Math.random() * 17 + "px forestGreen";
    
 }
-setInterval(blurMossText, 900);
+setInterval(blurMossText, 1000);
 
 
 function createMossball(){
-    const mossBall = document.createElement("moss-ball");
+    const mossBall = document.createElement("div");
     mossBall.classList.add('moss-ball');
-    mossBall.innerText = "O";
-    document.body.appendChild(mossBall);
-}
-setInterval(createMossball, 1500);
+    document.body.appendChild(mossBall); 
+    mossBall.style.left = Math.random() * 100 + "vw";
+    mossBall.style.top = Math.random() * 100 + "vh";
+    mossBall.style.filter = "blur(" + Math.random() * 25 +  "px)";
+    mossBall.style.transition = 3 + "s";
 
-function mouseOver() {
-    document.getElementsByClassName("moss-ball").style.backgroundColor = "white";
-  }
+    mossBall.onmouseover = function() {
+        mossBall.style.display = "none";
+    }
+
+}
+setInterval(createMossball, 2000);
 
