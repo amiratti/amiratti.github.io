@@ -25,11 +25,11 @@ function createMossball(){
     mossBall.style.width = (randomSize) +"px";
     mossBall.style.height = (randomSize) +"px";
     function blurMossBall(){
-        var randomBlur = Math.floor(Math.random() * 17) + 8;
+        var randomBlur = Math.floor(Math.random() * 12) + 8;
         mossBall.style.filter = "blur(" + (randomBlur) +  "px)"; 
     }
     setInterval(blurMossBall, 1500);
-    mossBall.style.transition = 1.5 + "s";
+    mossBall.style.transition = 1 + "s";
     mossBall.onmouseover = function() {
         mossBall.style.opacity = "0";
     }

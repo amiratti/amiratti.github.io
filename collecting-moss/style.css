@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(214, 255, 245);
+}
 
 #moss-text{
     color:transparent;
@@ -17,7 +20,7 @@
     position:absolute;
     width:90px;
     height:90px;
-    background-color: forestgreen;
+    background-color: rgb(0, 112, 0);
     border-radius: 90px;
     filter: blur(20px);
     opacity:0;
