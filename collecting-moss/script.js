@@ -16,12 +16,12 @@ function createMossball(){
     mossBall.style.top = Math.random() * 100 + "vh";  
  
     function opacityMossBall(){
-        var randomOpacity =  Math.floor(Math.random() * 100) + 70;
+        var randomOpacity =  Math.floor(Math.random() * 60) + 20;
         mossBall.style.opacity = (randomOpacity); 
     } 
     setTimeout(opacityMossBall, 300);
  
-    var randomSize = Math.floor(Math.random() * 100) + 70;
+    var randomSize = Math.floor(Math.random() * 100) + 20;
     mossBall.style.width = (randomSize) +"px";
     mossBall.style.height = (randomSize) +"px";
     function blurMossBall(){
