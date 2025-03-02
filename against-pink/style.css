@@ -1,53 +1,80 @@
 body{
-    background-color: ghostwhite;
+    background-color: rgb(241, 241, 255);
+    color: rgb(144, 117, 158);
 }
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    align-items: center;
+    flex-direction: row;
+
+  }
+
 #title{
     font-family: "Ballet";
-    font-size: 18vw;
+    font-size: 100px;
     color: rgb(255, 59, 150);
-    position: fixed;
-    bottom: -40px;
-    left: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.running-title{
+    font-family: "Ballet";
+    font-size: 50px;
+    color: rgb(255, 59, 150);
+    line-height:10px;
+
 }
 
-#author{
-    font-family: "Cutive Mono";
-    font-size: 1vw;
-    position:fixed;
-    bottom:10px;
-    right:10px;
+.running-matter{
+    line-height: 5px;
+}
+.box-title{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.next , .back  {
+    font-size: 100px;
+    text-decoration: none;
 }
 
-.next{
-    font-family: "Cutive Mono";
-    font-size: 1.5vw;
-    width: 50px;
-    height: 50px;
-    position:fixed;
-    bottom: 5px;
-    right:10px;
-    
+a{
+    color: rgb(255, 59, 150);
+    text-decoration: none;
+    padding-top: 0%;
 }
 
-.next:hover {
-    border-radius: 50px;
-    transition: border-radius 0.6s linear;
-    transition: background-color 0.6s linear;
-    transition:filter:blur 0.6s linear;
-    background-color:hotpink;
-    filter: blur(20px);
-    transition-timing-function: ease;
-  }
+a:visited{
+    color: rgb(255, 59, 150);
+    text-decoration: none;
+}
+
 
 .paragraph {
     font-family: "Cutive Mono";
-    font-size: 1.5vw;
+    font-size: 20px;
     border: solid 1px;
-    padding:1%;
-    display:inline-block;
-    width: 50vw;
+    padding:10px;
+    width: 40vw;
 }
-
+.colophon-paragraph {
+    font-family: "Cutive Mono";
+    font-size: 20px;
+    border: solid 1px;
+    padding:10px;
+    width: 40vw;
+    text-align: center;
+}
+.author , .colophon{
+    font-family: "Cutive Mono";
+    font-size: 15px;  
+}
 .fingernails{
     color:rgb(199, 83, 48);
 }
@@ -90,3 +117,364 @@ body{
     filter: blur(20px);
     transition-timing-function: ease;   
 }
+
+.sunburn{
+    color:rgb(255, 16, 71);
+}
+.sunburn:hover{
+    background-color: rgb(255, 10, 68);;
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.harm{
+    color:rgb(158, 25, 25);
+}
+.harm:hover{
+    background-color: rgb(179, 18, 18);;
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.shin{
+    color:rgb(160, 59, 59);
+}
+.shin:hover{
+    background-color: rgb(149, 55, 55);;
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.pink{
+    color:rgb(255, 0, 179);
+}
+.pink:hover{
+    background-color: rgb(255, 0, 179);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.poison{
+    color:rgb(174, 0, 67);
+}
+.poison:hover{
+    background-color: rgb(174, 0, 67);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.poppies{
+    color:rgb(224, 38, 115);
+}
+.poppies:hover{
+    background-color: rgb(224, 38, 115);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.anger{
+    color:rgb(255, 0, 64);
+}
+.anger:hover{
+    background-color: rgb(255, 0, 64);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.cast{
+    color:rgb(255, 108, 145);
+}
+.cast:hover{
+    background-color: rgb(255, 108, 145);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.meat{
+    color:rgb(255, 23, 23);
+}
+.meat:hover{
+    background-color: rgb(255, 23, 23);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+.passion{
+    color:rgb(251, 0, 255);
+}
+.passion:hover{
+    background-color: rgb(251, 0, 255);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.burgundy{
+    color:rgb(200, 36, 27);
+}
+.burgundy:hover{
+    background-color: rgb(200, 36, 27);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.rose{
+    color:rgb(255, 131, 207);
+}
+.rose:hover{
+    background-color: rgb(255, 131, 207);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.desire{
+    color:rgb(176, 7, 7);
+}
+.desire:hover{
+    background-color: rgb(176, 7, 7);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.tint{
+    color:rgb(255, 120, 147);
+}
+.tint:hover{
+    background-color: rgb(255, 120, 147);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.dresses{
+    color:rgb(230, 0, 255);
+}
+.dresses:hover{
+    background-color: rgb(230, 0, 255);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.barrette{
+    color:rgb(196, 0, 55);
+}
+.barrette:hover{
+    background-color: rgb(230, 0, 255);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.barrettes{
+    color:rgb(230, 0, 255);
+}
+.barrettes:hover{
+    background-color: rgb(230, 0, 255);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.blush{
+    color:rgb(219, 0, 62);
+}
+.blush:hover{
+    background-color: rgb(219, 0, 62);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.areolas{
+    color:rgb(138, 62, 62);
+}
+.areolas:hover{
+    background-color: rgb(138, 62, 62);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.strawberry{
+    color:rgb(253, 83, 83);
+}
+.strawberry:hover{
+    background-color: rgb(253, 83, 83);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.martinis{
+    color:rgb(255, 131, 94);
+}
+.martinis:hover{
+    background-color: rgb(255, 131, 94);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.insides{
+    color:rgb(255, 60, 0);
+}
+.insides:hover{
+    background-color: rgb(255, 60, 0);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.womb{
+    color:rgb(215, 59, 59);
+}
+.womb:hover{
+    background-color: rgb(215, 59, 59);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.life{
+    color:rgb(255, 148, 148);
+}
+.life:hover{
+    background-color: rgb(255, 148, 148);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.babies{
+    color:rgb(157, 34, 34);
+}
+.babies:hover{
+    background-color: rgb(157, 34, 34);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+
+.body{
+    color:rgb(225, 98, 48);
+}
+.body:hover{
+    background-color: rgb(225, 98, 48);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
+.face{
+    color:rgb(255, 34, 0);
+}
+.face:hover{
+    background-color: rgb(255, 34, 0);
+    border-radius: 250px;
+    transition: border-radius 1s linear;
+    transition: background-color 1s linear;
+    transition:filter:blur 1s linear;
+    filter: blur(20px);
+    transition-timing-function: ease;   
+}
+
