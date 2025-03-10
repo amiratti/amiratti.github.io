@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(76, 94, 33);
+    color:rgb(255, 242, 220)
+}
+#title{
+    font-family: "violeta", sans-serif;
+    font-size: 170px;
+    font-style: normal;
+    text-align: center;
+
+    }
+hr{
+    border-color: rgb(255, 242, 220);
+}
+
+.subheading-1{
+    font-family:  "violeta", sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    padding: 1rem;
+    line-height: 6rem;
+}
+.subheading-2{
+    font-family:  "violeta", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    padding: 1rem;
+    line-height: 6rem;
+    text-align: center;
+}
+#description{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+#info{
+    font-size: 25px;
+    width: 30vw;
+    padding: 1rem;
+}
+ #objective {
+    font-size: 25px;
+    width: 65vw;
+    padding: 1rem;
+}
+
+.a:hover , .t:hover , .r:hover , .e:hover , .g:hover , .o:hover , .w:hover , .s:hover , .i:hover , .n:hover , .b:hover , .k:hover , .l:hover , .y:hover{
+    font-family: "ltc-fleurons-garamont", sans-serif;
+    font-size: 7rem;
+font-weight: 200;
+font-style: normal;
+}
+

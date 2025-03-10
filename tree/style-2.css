@@ -1,0 +1,59 @@
+body{
+ background-image: url(./Images/abstract.png);
+ background-blend-mode:hue;
+    color:rgb(79, 199, 159);
+    font-family: "ccclobberintimesmooth", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+#title{
+    font-family: "violeta", sans-serif;
+    font-size: 170px;
+    font-style: normal;
+    text-align:justify;
+    letter-spacing: 150px;
+    font-family: "fiora-monograms", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+    }
+hr{
+    border-color: rgb(255, 162, 0);
+}
+
+.subheading-1{
+    font-family:  "violeta", sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    padding: 1rem;
+    line-height: 20px;
+    text-align:center;
+}
+.subheading-2{
+    font-family:  "violeta", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    padding: 1rem;
+    line-height: 6rem;
+    text-align:justify;
+}
+#description{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+#info{
+    font-size: 25px;
+    width: 30vw;
+    padding: 1rem;
+       text-align:justify;
+    letter-spacing: 20px;
+}
+ #objective {
+    font-size: 25px;
+    width: 65vw;
+    padding: 1rem;
+    text-align:justify;
+    letter-spacing: 20px;
+}
