@@ -44,24 +44,27 @@
 #rock1:hover{
     width:190px;
 }
+.music{
+    padding:10%;
+}
 
 @media only screen and (max-width: 768px) {
     #green-mt{
         width:100%;
     }
     .title{
-        font-size: 70px;
+        font-size: 30px;
     }
     .heading, .music{
-        font-size:50px;
+        font-size:30px;
     }
     .box1{
         display:flex;
         flex-direction:column;
     }
     .box2{
-        display:flex;
-        flex-direction:column;
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
         align-items:center;
 
     }
