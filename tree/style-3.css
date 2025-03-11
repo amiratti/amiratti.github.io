@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(240, 241, 220);
+    color:rgb(0, 0, 0)
+}
+#title{
+    font-family: "violeta", sans-serif;
+    font-size: 170px;
+    font-style: normal;
+    text-align: center;
+
+    }
+hr{
+    border-color: rgb(0, 0, 0);
+}
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;  
+}
+.subheading-1{
+    font-family:  "violeta", sans-serif;
+    font-style: italic;
+    font-size: 80px;
+    padding: 1rem;
+    line-height: 6rem;
+}
+.subheading-2{
+    font-family:  "violeta", sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    padding: 1rem;
+    line-height: 6rem;
+    text-align: center;
+}
+#description{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+#info{
+    font-size: 25px;
+    width: 30vw;
+    padding: 1rem;
+}
+ #objective {
+    font-size: 25px;
+    width: 65vw;
+    padding: 1rem;
+}
+
+.a:hover {
+    color:rgba(240, 241, 220, 0);
+    width:fit-content;
+    background: url('./Images/leaf1.png');
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+.t:hover {
+    color:rgba(240, 241, 220, 0);
+    width:fit-content;
+    background: url('./Images/leaf2.png');
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+.r:hover {
+    color:rgba(240, 241, 220, 0);
+    width:fit-content;
+    background: url('./Images/leaf3.png');
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: multiply;
+}
+.e:hover {
+    color:rgba(240, 241, 220, 0);
+    width:fit-content;
+    background: url('./Images/leaf4.png');
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
