@@ -32,8 +32,13 @@ img{
     width:12vw;
 }
 a {
-    color:rgb(255, 242, 220);
+    color:rgba(255, 242, 220, 0.558);
     text-decoration: none;  
+    transition: color .3s ease-in-out;
+}
+a:hover{
+    color:rgb(255, 242, 220);
+    transition: color .3s ease-in-out;
 }
 .subheading-1{
     font-family:  "violeta", sans-serif;
