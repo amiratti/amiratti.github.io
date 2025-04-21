@@ -1,0 +1,121 @@
+body{
+    background-color: #f3c55b;
+    color:rgb(255, 255, 255);
+ 
+    font-family:monospace;
+    font-size: 1.5vw;
+}
+.instructions{
+    padding:1rem;
+}
+.info{
+    width:45vw;
+    padding-top: 1rem;
+    padding-left: 1rem;;
+}
+.show{
+    width:15vw;
+}
+.images{
+    position:absolute;
+    bottom:1%;
+    right:1%;
+
+    gap:1rem;
+}
+.house{
+    width:90vw;
+    height: 100vh;
+    background-image: url(Images/Shair_House_01.png);
+    background-position-y:top;
+    padding:5vw;
+    min-height: 250vh;
+  background-attachment: local;
+  background-size: 100vw;
+  scrollbar-width: none;
+  overflow: scroll;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20%;
+}
+
+#chairshair{
+    width:20vw;
+    position:absolute;
+        top:1%;
+    right:1%;
+}
+.chair{
+    width:20vw;
+}
+
+#chair1{
+    top:140%;
+    left:30%;
+}
+
+#chair2{
+    top:55%;
+    left:30%;
+}
+#chair3{
+    top:60%;
+    left:75%;
+}
+#chair4{
+    top:130%;
+    left:70%;
+}
+
+#chair5{
+    top:40%;
+    left:55%;
+}
+#chair6{
+    top:210%;
+    left:20%;
+}
+#chair7{
+    top:50%;
+    left:10%;
+}
+
+#chair8{
+    top:130%;
+    left:10%;
+}
+
+
+#chair9{
+    top:220%;
+    left:70%;
+}
+#chair10{
+    width:25vw;
+    top:110%;
+    left:50%;
+}
+#chair11{
+    width:25vw;
+    top:200%;
+    left:40%;
+}
+
+#chair12{
+    width:25vw;
+    top:55%;
+    left:45%;
+}
+
+
+#chair13{
+
+    top:225%;
+    left:5%;
+}
+#chair14{
+
+    top:200%;
+    left:5%;
+}
