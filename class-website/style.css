@@ -31,19 +31,47 @@
     font-size: 30px;
 }
 .rocks{
+    position:absolute;
     width:210px;
     max-width: 100%;
 }
-.rocks:hover{
-    width:220px;
-}
 
+#rock4{
+    width:280px;
+        top:30%;
+        left:70%;
+}
 #rock1{
     width:180px;
+    top:40%;
+    left:30%;
 }
-#rock1:hover{
-    width:190px;
+#rock2{
+    width:180px;
+    top:60%;
+    left:10%;
 }
+#rock3{
+    width:180px;
+    top:70%;
+    left:50%;
+}
+#rock5{
+    width:180px;
+    top:70%;
+    left:80%;
+}
+#rock6{
+    width:180px;
+    top:20%;
+    left:40%;
+}
+#rock7{
+    width:180px;
+    top:30%;
+    left:10%;
+}
+
 .music{
     padding:10%;
 }
